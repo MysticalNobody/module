@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.5'
+
+flutter_application_path = '../module_f'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+target 'FlutterModuleDemoApp' do
+  use_frameworks!
+
+end
+
+target 'FluttertModule' do
+  use_frameworks!
+
+  install_all_flutter_pods(flutter_application_path)
+
+end

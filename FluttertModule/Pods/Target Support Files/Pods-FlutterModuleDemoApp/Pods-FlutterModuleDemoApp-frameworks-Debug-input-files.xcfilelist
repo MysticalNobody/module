@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-FlutterModuleDemoApp/Pods-FlutterModuleDemoApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/camera/camera.framework
+${PODS_ROOT}/../../module_f/.ios/Flutter/App.framework
+${BUILT_PRODUCTS_DIR}/sensors/sensors.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter/Flutter.framework/Flutter

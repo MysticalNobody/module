@@ -1,0 +1,6 @@
+framework module Pods_FlutterModuleDemoApp {
+  umbrella header "Pods-FlutterModuleDemoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

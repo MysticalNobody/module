@@ -1,0 +1,42 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - camera
+    - Flutter
+    - sensors
+  - module_f (0.0.1):
+    - Flutter
+  - sensors (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - camera (from `../module_f/.ios/.symlinks/plugins/camera/ios`)
+  - Flutter (from `../module_f/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../module_f/.ios/Flutter/FlutterPluginRegistrant`)
+  - module_f (from `../module_f/.ios/Flutter`)
+  - sensors (from `../module_f/.ios/.symlinks/plugins/sensors/ios`)
+
+EXTERNAL SOURCES:
+  camera:
+    :path: "../module_f/.ios/.symlinks/plugins/camera/ios"
+  Flutter:
+    :path: "../module_f/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../module_f/.ios/Flutter/FlutterPluginRegistrant"
+  module_f:
+    :path: "../module_f/.ios/Flutter"
+  sensors:
+    :path: "../module_f/.ios/.symlinks/plugins/sensors/ios"
+
+SPEC CHECKSUMS:
+  camera: 3164201dc344383e62282964016528c4f5a9ad50
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  FlutterPluginRegistrant: 7e40775173926a6bbf9f0edb6d56cfb3dc7f3a34
+  module_f: 121ba3bfb1d7e43a9e971067afaac8f855aed579
+  sensors: 84eb7a30e47a649e4172b71d6e81be614c280336
+
+PODFILE CHECKSUM: 8f2a5ee2f8b878098fc459a7b12772aa9622380c
+
+COCOAPODS: 1.10.1
